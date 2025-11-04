@@ -8,6 +8,14 @@
   justify-content: center;
 }
 
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+  padding: 2rem;
+}
+
 .textWall {
   font-size: 2rem;
   line-height: 1.6;
@@ -24,5 +32,28 @@
 }
 
 .projectLink:hover {
+  color: #cccccc;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  color: #666666;
+  font-size: 0.9rem;
+}
+
+.footerLine {
+  text-align: center;
+}
+
+.footerLink {
+  color: #666666;
+  text-decoration: underline;
+  transition: color 0.2s ease;
+}
+
+.footerLink:hover {
   color: #cccccc;
 }
