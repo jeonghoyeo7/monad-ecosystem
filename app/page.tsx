@@ -26,9 +26,6 @@ export default function Home() {
             Total projects: {projects.length}
           </div>
           <div className={styles.footerLine}>
-            Made with love by port
-          </div>
-          <div className={styles.footerLine}>
             <a
               href="https://github.com/portdeveloper/monad-ecosystem"
               target="_blank"
@@ -36,24 +33,6 @@ export default function Home() {
               className={styles.footerLink}
             >
               GitHub
-            </a>
-            {' · '}
-            <a
-              href="https://github.com/portdeveloper/monad-ecosystem/issues"
-              target="_blank"
-              rel="noopener noreferrer"
-              className={styles.footerLink}
-            >
-              Issues
-            </a>
-            {' · '}
-            <a
-              href="https://github.com/portdeveloper/monad-ecosystem/pulls"
-              target="_blank"
-              rel="noopener noreferrer"
-              className={styles.footerLink}
-            >
-              PRs
             </a>
           </div>
           <div className={styles.footerLine}>
