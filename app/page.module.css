@@ -1,0 +1,28 @@
+.container {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #000000;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.textWall {
+  font-size: 2rem;
+  line-height: 1.6;
+  word-wrap: break-word;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.projectLink {
+  color: #666666;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.projectLink:hover {
+  color: #cccccc;
+}
